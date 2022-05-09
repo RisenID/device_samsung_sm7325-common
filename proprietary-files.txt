@@ -115,6 +115,9 @@ vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libswspatializer.so
 
+# Audio (FX modules) - from cheetah-user 13 TQ2A.230405.003.E1 9802792 release-keys
+vendor/lib/soundfx/libspatialaudio.so|379b98b020729d05cad4e84202f42335b96bb755
+
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
