@@ -439,6 +439,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung \
     hardware/samsung/aidl/power-libperfmgr
 
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+    
 # Prop files
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
