@@ -371,6 +371,10 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0.vendor \
     android.frameworks.cameraservice.service@2.1.vendor
 
+# Touch features
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.samsung_sm7325
+
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
