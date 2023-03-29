@@ -425,5 +425,9 @@ TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 # Live Wallpaper
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
+# SimpleDeviceConfig
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
+
 # Inherit proprietary blobs
 $(call inherit-product, vendor/samsung/sm7325-common/sm7325-common-vendor.mk)
