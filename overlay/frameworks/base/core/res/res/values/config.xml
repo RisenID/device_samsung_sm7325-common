@@ -1315,4 +1315,11 @@
 
     <!-- For performance and storage reasons, limit the number of fingerprints per user -->
     <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
+
+     <!-- Defines the actions shown in advanced reboot submenu -->
+     <string-array name="config_restartActionsList">
+        <item>restart</item>
+        <item>restart_recovery</item>
+        <item>restart_download</item>
+     </string-array>
 </resources>
