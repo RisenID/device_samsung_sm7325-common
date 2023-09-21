@@ -459,5 +459,10 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
 
+#NGA
+PRODUCT_PACKAGES += \
+    NgaResources \
+    nga
+
 # Inherit proprietary blobs
 $(call inherit-product, vendor/samsung/sm7325-common/sm7325-common-vendor.mk)
