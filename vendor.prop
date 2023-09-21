@@ -71,6 +71,7 @@ vendor.audio.feature.audiozoom.enable=false
 ro.config.media_vol_steps=30
 ro.config.vc_call_vol_steps=8
 ro.audio.spatializer_enabled=true
+persist.vendor.audio.spatializer.speaker_enabled=true
 
 # Bluetooth
 ro.bluetooth.a2dp_offload.supported=true
